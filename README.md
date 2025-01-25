@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Vehicle Models App
 
-## Getting Started
+This is a web application that allows users to select a vehicle make and model year, and view the corresponding vehicle models. The app fetches vehicle makes and model details from an external API (NHTSA API). The app is built using **Next.js** and **React** with **Tailwind CSS** for styling.
 
-First, run the development server:
+## Features
+
+- **Vehicle Make Selector**: Select from a list of vehicle makes.
+- **Model Year Selector**: Select the model year (from 2015 to the current year).
+- **Vehicle Models Display**: Once a make and model year are selected, the app displays a list of available vehicle models for the chosen criteria.
+- **Error Handling**: Displays error messages if fetching data fails.
+- **Suspense for Loading**: Implements React’s `Suspense` for a smooth loading experience.
+
+## Tech Stack
+
+- **Next.js**: A React framework for building static and server-side rendered applications.
+- **React**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for styling.
+- **NHTSA API**: External API to fetch vehicle data.
+
+## How to Run and Build the Application
+
+### Prerequisites
+
+Make sure you have **Node.js** and **npm** installed. You can check if they're installed by running the following commands:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+node -v
+npm -v
