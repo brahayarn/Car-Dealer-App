@@ -26,3 +26,44 @@ Make sure you have **Node.js** and **npm** installed. You can check if they're i
 ```bash
 node -v
 npm -v
+
+## Clone the Repository:
+
+git clone https://github.com/brahayarn/Car-Dealer-App.git
+
+cd Car-Dealer-App
+
+npm install
+or
+yarn install
+
+## Set Environment Variables
+Create a .env.local file in the root of the project and add the following:
+
+NEXT_PUBLIC_API_URL=https://vpic.nhtsa.dot.gov/api
+
+
+## Start the Development Server:
+
+npm run dev
+or 
+yarn dev
+
+The app will be available at http://localhost:3000
+
+##Build and Deploy
+npm run build
+or
+yarn build
+
+
+## Screenshots
+
+#### Home Page Before Selection
+![Home Page Before Selection](assets/homepage-before-selected.png)
+
+#### Home Page After Selection
+![Home Page After Selection](assets/home-page-after-selected.png)
+
+#### Result Page
+![Result Page](assets/result-page.png)
