@@ -60,10 +60,10 @@ yarn build
 ## Screenshots
 
 #### Home Page Before Selection
-![Home Page Before Selection](screenshots/homepage-before-selected.png)
+![Home Page Before Selection](./screenshots/homepage-before-selected.png)
 
 #### Home Page After Selection
-![Home Page After Selection](screenshots/home-page-after-selected.png)
+![Home Page After Selection](./screenshots/home-page-after-selected.png)
 
 #### Result Page
-![Result Page](screenshots/result-page.png)
+![Result Page](./screenshots/result-page.png)
